@@ -1,0 +1,98 @@
+:root {
+  --primary-color: #4CAF50; /* Green */
+  --secondary-color: #f9f9f9; /* Light Gray */
+  --accent-color: #ff4081; /* Pink */
+  --text-color: #333; /* Dark Gray */
+  --hover-color: rgba(76, 175, 80, 0.8); /* Semi-transparent green */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--secondary-color);
+}
+
+.App {
+  text-align: center;
+}
+
+.card-set {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.category-selector {
+  margin-bottom: 20px;
+}
+
+.category-selector label {
+  margin-right: 10px;
+}
+
+.category-selector select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-color: var(--secondary-color);
+}
+
+.card-back {
+  background-color: var(--accent-color);
+  transform: rotateY(180deg);
+}
+
+.next-button {
+  padding: 10px 20px;
+  font-size:16px;
+  
+background-color: var(--primary-color);
+color:white;
+
+border:none;
+
+border-radius:5px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.next-button:hover {
+background-color:variables(--hover-color);
+transform:translateY(-2px); /* Slight lift effect on hover */
+}
