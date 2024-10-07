@@ -3,11 +3,11 @@
 Brain Bite: Interactive Flashcard Web Application
 # Description
 
-Diverse Topics: Explore flashcards covering General Knowledge, Science & Nature, History, Sports, Music, Mathematics, Geography, Books, Computer Science, and      Art.
-Interactive Learning: Enjoy a user-friendly interface that makes learning intuitive and engaging.
-Customizable Flashcards: Create, edit, and personalize your own flashcards to tailor your learning experience.
-Progress Tracking: Monitor your learning journey and track your improvement over time.
-Gamified Experience: Challenge yourself with quizzes and games to reinforce your knowledge and keep learning fun!
+    Diverse Topics: Explore flashcards covering General Knowledge, Science & Nature, History, Sports, Music, Mathematics, Geography, Books, Computer Science, and      Art.
+    Interactive Learning: Enjoy a user-friendly interface that makes learning intuitive and engaging.
+    Customizable Flashcards: Create, edit, and personalize your own flashcards to tailor your learning experience.
+    Progress Tracking: Monitor your learning journey and track your improvement over time.
+    Gamified Experience: Challenge yourself with quizzes and games to reinforce your knowledge and keep learning fun!
 
 # Category Topics
 
