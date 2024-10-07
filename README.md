@@ -1,6 +1,5 @@
-# Brain-Bites-2
+# Brain-Bites-2: Interactive Flashcard Web Application
 
-Brain Bite: Interactive Flashcard Web Application
 # Description
 
     Diverse Topics: Explore flashcards covering General Knowledge, Science & Nature, History, Sports, Music, Mathematics, Geography, Books, Computer Science, and      Art.
